@@ -20,6 +20,7 @@
 		C38AC3D3260FC45800F0B230 /* FestaDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AC3D2260FC45800F0B230 /* FestaDao.swift */; };
 		C38AC3D6260FC51500F0B230 /* AmbienteDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AC3D5260FC51500F0B230 /* AmbienteDao.swift */; };
 		C38AC3D9260FCAD800F0B230 /* AdiconarPessoaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AC3D8260FCAD800F0B230 /* AdiconarPessoaViewController.swift */; };
+		C38AC3DD260FD0B400F0B230 /* ListaPessoasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AC3DC260FD0B400F0B230 /* ListaPessoasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		C38AC3D2260FC45800F0B230 /* FestaDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FestaDao.swift; sourceTree = "<group>"; };
 		C38AC3D5260FC51500F0B230 /* AmbienteDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbienteDao.swift; sourceTree = "<group>"; };
 		C38AC3D8260FCAD800F0B230 /* AdiconarPessoaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdiconarPessoaViewController.swift; sourceTree = "<group>"; };
+		C38AC3DC260FD0B400F0B230 /* ListaPessoasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaPessoasViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				C38AC3B0260FC02600F0B230 /* HomeViewController.swift */,
 				C38AC3D8260FCAD800F0B230 /* AdiconarPessoaViewController.swift */,
+				C38AC3DC260FD0B400F0B230 /* ListaPessoasViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				C38AC3CA260FC16B00F0B230 /* Ambiente.swift in Sources */,
 				C38AC3AD260FC02600F0B230 /* AppDelegate.swift in Sources */,
 				C38AC3C6260FC0ED00F0B230 /* Pessoa.swift in Sources */,
+				C38AC3DD260FD0B400F0B230 /* ListaPessoasViewController.swift in Sources */,
 				C38AC3AF260FC02600F0B230 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
