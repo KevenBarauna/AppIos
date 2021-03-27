@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		C38AC3AD260FC02600F0B230 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AC3AC260FC02600F0B230 /* AppDelegate.swift */; };
 		C38AC3AF260FC02600F0B230 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AC3AE260FC02600F0B230 /* SceneDelegate.swift */; };
-		C38AC3B1260FC02600F0B230 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AC3B0260FC02600F0B230 /* ViewController.swift */; };
+		C38AC3B1260FC02600F0B230 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AC3B0260FC02600F0B230 /* HomeViewController.swift */; };
 		C38AC3B4260FC02600F0B230 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38AC3B2260FC02600F0B230 /* Main.storyboard */; };
 		C38AC3B6260FC02800F0B230 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C38AC3B5260FC02800F0B230 /* Assets.xcassets */; };
 		C38AC3B9260FC02800F0B230 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38AC3B7260FC02800F0B230 /* LaunchScreen.storyboard */; };
@@ -19,13 +19,14 @@
 		C38AC3D0260FC32800F0B230 /* PessoaDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AC3CF260FC32800F0B230 /* PessoaDao.swift */; };
 		C38AC3D3260FC45800F0B230 /* FestaDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AC3D2260FC45800F0B230 /* FestaDao.swift */; };
 		C38AC3D6260FC51500F0B230 /* AmbienteDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AC3D5260FC51500F0B230 /* AmbienteDao.swift */; };
+		C38AC3D9260FCAD800F0B230 /* AdiconarPessoaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AC3D8260FCAD800F0B230 /* AdiconarPessoaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C38AC3A9260FC02600F0B230 /* Festa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Festa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C38AC3AC260FC02600F0B230 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C38AC3AE260FC02600F0B230 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C38AC3B0260FC02600F0B230 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C38AC3B0260FC02600F0B230 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C38AC3B3260FC02600F0B230 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C38AC3B5260FC02800F0B230 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C38AC3B8260FC02800F0B230 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +37,7 @@
 		C38AC3CF260FC32800F0B230 /* PessoaDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PessoaDao.swift; sourceTree = "<group>"; };
 		C38AC3D2260FC45800F0B230 /* FestaDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FestaDao.swift; sourceTree = "<group>"; };
 		C38AC3D5260FC51500F0B230 /* AmbienteDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbienteDao.swift; sourceTree = "<group>"; };
+		C38AC3D8260FCAD800F0B230 /* AdiconarPessoaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdiconarPessoaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +94,8 @@
 		C38AC3C2260FC0A500F0B230 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C38AC3B0260FC02600F0B230 /* ViewController.swift */,
+				C38AC3B0260FC02600F0B230 /* HomeViewController.swift */,
+				C38AC3D8260FCAD800F0B230 /* AdiconarPessoaViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -188,9 +191,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C38AC3D3260FC45800F0B230 /* FestaDao.swift in Sources */,
-				C38AC3B1260FC02600F0B230 /* ViewController.swift in Sources */,
+				C38AC3B1260FC02600F0B230 /* HomeViewController.swift in Sources */,
 				C38AC3CD260FC1F100F0B230 /* Festa.swift in Sources */,
 				C38AC3D6260FC51500F0B230 /* AmbienteDao.swift in Sources */,
+				C38AC3D9260FCAD800F0B230 /* AdiconarPessoaViewController.swift in Sources */,
 				C38AC3D0260FC32800F0B230 /* PessoaDao.swift in Sources */,
 				C38AC3CA260FC16B00F0B230 /* Ambiente.swift in Sources */,
 				C38AC3AD260FC02600F0B230 /* AppDelegate.swift in Sources */,

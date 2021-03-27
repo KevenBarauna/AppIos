@@ -1,13 +1,6 @@
-//
-//  ViewController.swift
-//  Festa
-//
-//  Created by administrator on 3/27/21.
-//
-
 import UIKit
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
