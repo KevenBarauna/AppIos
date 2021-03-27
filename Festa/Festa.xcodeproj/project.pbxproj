@@ -21,6 +21,7 @@
 		C38AC3D6260FC51500F0B230 /* AmbienteDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AC3D5260FC51500F0B230 /* AmbienteDao.swift */; };
 		C38AC3D9260FCAD800F0B230 /* AdiconarPessoaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AC3D8260FCAD800F0B230 /* AdiconarPessoaViewController.swift */; };
 		C38AC3DD260FD0B400F0B230 /* ListaPessoasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AC3DC260FD0B400F0B230 /* ListaPessoasViewController.swift */; };
+		C38AC3E0260FD72500F0B230 /* AdicionarAmbienteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AC3DF260FD72500F0B230 /* AdicionarAmbienteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		C38AC3D5260FC51500F0B230 /* AmbienteDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbienteDao.swift; sourceTree = "<group>"; };
 		C38AC3D8260FCAD800F0B230 /* AdiconarPessoaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdiconarPessoaViewController.swift; sourceTree = "<group>"; };
 		C38AC3DC260FD0B400F0B230 /* ListaPessoasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaPessoasViewController.swift; sourceTree = "<group>"; };
+		C38AC3DF260FD72500F0B230 /* AdicionarAmbienteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdicionarAmbienteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				C38AC3B0260FC02600F0B230 /* HomeViewController.swift */,
 				C38AC3D8260FCAD800F0B230 /* AdiconarPessoaViewController.swift */,
 				C38AC3DC260FD0B400F0B230 /* ListaPessoasViewController.swift */,
+				C38AC3DF260FD72500F0B230 /* AdicionarAmbienteViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			files = (
 				C38AC3D3260FC45800F0B230 /* FestaDao.swift in Sources */,
 				C38AC3B1260FC02600F0B230 /* HomeViewController.swift in Sources */,
+				C38AC3E0260FD72500F0B230 /* AdicionarAmbienteViewController.swift in Sources */,
 				C38AC3CD260FC1F100F0B230 /* Festa.swift in Sources */,
 				C38AC3D6260FC51500F0B230 /* AmbienteDao.swift in Sources */,
 				C38AC3D9260FCAD800F0B230 /* AdiconarPessoaViewController.swift in Sources */,
