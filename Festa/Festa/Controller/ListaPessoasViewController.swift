@@ -3,16 +3,20 @@ import UIKit
 class ListaPessoasViewController: UITableViewController {
     
     let _pessoaDao = PessoaDao();
+    var pessoas: [Pessoa] = [];
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        pessoas = _pessoaDao.getPessoas();
+    }
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        let listaPessoas = _pessoaDao.getPessoas();
-        return listaPessoas.count;
+        return pessoas.count;
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        print("função")
         let linha = UITableViewCell(style: .default, reuseIdentifier: nil)
-        let listaPessoas = _pessoaDao.getPessoas();
-        linha.textLabel?.text = listaPessoas[indexPath.row].nome;
+        linha.textLabel?.text = pessoas[indexPath.row].nome;
         return linha;
     }
     

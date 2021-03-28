@@ -7,6 +7,7 @@ class AdicionarPessoaViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    let pessoaDao = PessoaDao();
     
     @IBOutlet weak var txtNome: UITextField?
     @IBOutlet weak var txtIdade: UITextField?
@@ -23,7 +24,9 @@ class AdicionarPessoaViewController: UIViewController {
             return
         }
         
-        print("Nome: \(nome) Idade: \(idade) ")
+        let pessoa = Pessoa(nome: nome, idade: idade, telefone: "9999-9999")
+        pessoaDao.adicionarPessoa(pessoa);
+        navigationController?.popViewController(animated: true);
     }
     
 }
