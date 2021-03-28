@@ -11,7 +11,7 @@
         <!--Cadastrar-->
         <scene sceneID="kRN-x4-pZj">
             <objects>
-                <viewController id="Bwd-0d-8WL" sceneMemberID="viewController">
+                <viewController id="Bwd-0d-8WL" customClass="CadastrarViewController" customModule="Amigos" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PNF-A5-UWC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -40,6 +40,9 @@
                                 <rect key="frame" x="173" y="330" width="68" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Pesquisar"/>
+                                <connections>
+                                    <action selector="pesquisar:" destination="Bwd-0d-8WL" eventType="touchUpInside" id="jFv-EH-eWW"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Encontrado ou não encontrado" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZeH-Fz-Lz2">
                                 <rect key="frame" x="93" y="470" width="236" height="21"/>
@@ -53,6 +56,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Cadastrar" id="DzV-IL-pRN"/>
+                    <connections>
+                        <outlet property="txtNomeUser" destination="Ebe-6N-tns" id="viE-LM-Fwp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DTK-ZM-LWZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -61,7 +67,7 @@
         <!--Home-->
         <scene sceneID="JLz-RO-L3f">
             <objects>
-                <viewController id="cmt-Ev-oTk" sceneMemberID="viewController">
+                <viewController id="cmt-Ev-oTk" customClass="HomeViewController" customModule="Amigos" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RTH-Ey-PPs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -105,7 +111,7 @@
         <!--Lista amigos-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Amigos" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ListaViewController" customModule="Amigos" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

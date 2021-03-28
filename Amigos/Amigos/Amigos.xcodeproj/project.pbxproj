@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		C38AC43D261125FE00F0B230 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AC43C261125FE00F0B230 /* AppDelegate.swift */; };
 		C38AC43F261125FE00F0B230 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AC43E261125FE00F0B230 /* SceneDelegate.swift */; };
-		C38AC441261125FE00F0B230 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AC440261125FE00F0B230 /* ViewController.swift */; };
+		C38AC441261125FE00F0B230 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AC440261125FE00F0B230 /* HomeViewController.swift */; };
 		C38AC444261125FE00F0B230 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38AC442261125FE00F0B230 /* Main.storyboard */; };
 		C38AC447261125FE00F0B230 /* Amigos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C38AC445261125FE00F0B230 /* Amigos.xcdatamodeld */; };
 		C38AC449261125FF00F0B230 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C38AC448261125FF00F0B230 /* Assets.xcassets */; };
 		C38AC44C261125FF00F0B230 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38AC44A261125FF00F0B230 /* LaunchScreen.storyboard */; };
 		C38AC457261125FF00F0B230 /* AmigosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AC456261125FF00F0B230 /* AmigosTests.swift */; };
 		C38AC462261125FF00F0B230 /* AmigosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AC461261125FF00F0B230 /* AmigosUITests.swift */; };
+		C38AC480261129AB00F0B230 /* CadastrarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AC47F261129AB00F0B230 /* CadastrarViewController.swift */; };
+		C38AC485261129F000F0B230 /* ListaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AC484261129F000F0B230 /* ListaViewController.swift */; };
+		C38AC48A26112AB700F0B230 /* Amigo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AC48926112AB700F0B230 /* Amigo.swift */; };
+		C38AC48F26112C6A00F0B230 /* AmigoDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AC48E26112C6A00F0B230 /* AmigoDao.swift */; };
+		C38AC4942611347500F0B230 /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AC4932611347500F0B230 /* ApiResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,7 @@
 		C38AC439261125FE00F0B230 /* Amigos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amigos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C38AC43C261125FE00F0B230 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C38AC43E261125FE00F0B230 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C38AC440261125FE00F0B230 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C38AC440261125FE00F0B230 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C38AC443261125FE00F0B230 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C38AC446261125FE00F0B230 /* Amigos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Amigos.xcdatamodel; sourceTree = "<group>"; };
 		C38AC448261125FF00F0B230 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +56,11 @@
 		C38AC45D261125FF00F0B230 /* AmigosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmigosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C38AC461261125FF00F0B230 /* AmigosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmigosUITests.swift; sourceTree = "<group>"; };
 		C38AC463261125FF00F0B230 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C38AC47F261129AB00F0B230 /* CadastrarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastrarViewController.swift; sourceTree = "<group>"; };
+		C38AC484261129F000F0B230 /* ListaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaViewController.swift; sourceTree = "<group>"; };
+		C38AC48926112AB700F0B230 /* Amigo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amigo.swift; sourceTree = "<group>"; };
+		C38AC48E26112C6A00F0B230 /* AmigoDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmigoDao.swift; sourceTree = "<group>"; };
+		C38AC4932611347500F0B230 /* ApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +111,13 @@
 		C38AC43B261125FE00F0B230 /* Amigos */ = {
 			isa = PBXGroup;
 			children = (
+				C38AC4752611287C00F0B230 /* DAO */,
+				C38AC4742611287400F0B230 /* Controller */,
+				C38AC4732611286E00F0B230 /* Model */,
+				C38AC4722611286300F0B230 /* View */,
 				C38AC43C261125FE00F0B230 /* AppDelegate.swift */,
 				C38AC43E261125FE00F0B230 /* SceneDelegate.swift */,
-				C38AC440261125FE00F0B230 /* ViewController.swift */,
-				C38AC442261125FE00F0B230 /* Main.storyboard */,
 				C38AC448261125FF00F0B230 /* Assets.xcassets */,
-				C38AC44A261125FF00F0B230 /* LaunchScreen.storyboard */,
 				C38AC44D261125FF00F0B230 /* Info.plist */,
 				C38AC445261125FE00F0B230 /* Amigos.xcdatamodeld */,
 			);
@@ -129,6 +140,42 @@
 				C38AC463261125FF00F0B230 /* Info.plist */,
 			);
 			path = AmigosUITests;
+			sourceTree = "<group>";
+		};
+		C38AC4722611286300F0B230 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C38AC442261125FE00F0B230 /* Main.storyboard */,
+				C38AC44A261125FF00F0B230 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C38AC4732611286E00F0B230 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C38AC48926112AB700F0B230 /* Amigo.swift */,
+				C38AC4932611347500F0B230 /* ApiResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C38AC4742611287400F0B230 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C38AC440261125FE00F0B230 /* HomeViewController.swift */,
+				C38AC47F261129AB00F0B230 /* CadastrarViewController.swift */,
+				C38AC484261129F000F0B230 /* ListaViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C38AC4752611287C00F0B230 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				C38AC48E26112C6A00F0B230 /* AmigoDao.swift */,
+			);
+			path = DAO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,8 +308,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C38AC441261125FE00F0B230 /* ViewController.swift in Sources */,
+				C38AC485261129F000F0B230 /* ListaViewController.swift in Sources */,
+				C38AC441261125FE00F0B230 /* HomeViewController.swift in Sources */,
+				C38AC48F26112C6A00F0B230 /* AmigoDao.swift in Sources */,
+				C38AC48A26112AB700F0B230 /* Amigo.swift in Sources */,
 				C38AC43D261125FE00F0B230 /* AppDelegate.swift in Sources */,
+				C38AC480261129AB00F0B230 /* CadastrarViewController.swift in Sources */,
+				C38AC4942611347500F0B230 /* ApiResponse.swift in Sources */,
 				C38AC43F261125FE00F0B230 /* SceneDelegate.swift in Sources */,
 				C38AC447261125FE00F0B230 /* Amigos.xcdatamodeld in Sources */,
 			);
