@@ -1,18 +1,18 @@
 import UIKit
 
-class ListaPessoasViewController: UITableViewController {
+class ListaAmbienteViewController: UITableViewController {
     
-    let _pessoaDao = PessoaDao();
+    let _ambienteDao = AmbienteDao();
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        let listaPessoas = _pessoaDao.getPessoas();
-        return listaPessoas.count;
+        let listaAmbiente = _ambienteDao.getAmbientes();
+        return listaAmbiente.count;
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let linha = UITableViewCell(style: .default, reuseIdentifier: nil)
-        let listaPessoas = _pessoaDao.getPessoas();
-        linha.textLabel?.text = listaPessoas[indexPath.row].nome;
+        let listaAmbiente = _ambienteDao.getAmbientes();
+        linha.textLabel?.text = listaAmbiente[indexPath.row].titulo;
         return linha;
     }
     

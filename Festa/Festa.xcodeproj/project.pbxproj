@@ -22,6 +22,7 @@
 		C38AC3D9260FCAD800F0B230 /* AdiconarPessoaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AC3D8260FCAD800F0B230 /* AdiconarPessoaViewController.swift */; };
 		C38AC3DD260FD0B400F0B230 /* ListaPessoasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AC3DC260FD0B400F0B230 /* ListaPessoasViewController.swift */; };
 		C38AC3E0260FD72500F0B230 /* AdicionarAmbienteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AC3DF260FD72500F0B230 /* AdicionarAmbienteViewController.swift */; };
+		C38AC3E32611036800F0B230 /* ListaAmbienteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AC3E22611036800F0B230 /* ListaAmbienteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		C38AC3D8260FCAD800F0B230 /* AdiconarPessoaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdiconarPessoaViewController.swift; sourceTree = "<group>"; };
 		C38AC3DC260FD0B400F0B230 /* ListaPessoasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaPessoasViewController.swift; sourceTree = "<group>"; };
 		C38AC3DF260FD72500F0B230 /* AdicionarAmbienteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdicionarAmbienteViewController.swift; sourceTree = "<group>"; };
+		C38AC3E22611036800F0B230 /* ListaAmbienteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaAmbienteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				C38AC3D8260FCAD800F0B230 /* AdiconarPessoaViewController.swift */,
 				C38AC3DC260FD0B400F0B230 /* ListaPessoasViewController.swift */,
 				C38AC3DF260FD72500F0B230 /* AdicionarAmbienteViewController.swift */,
+				C38AC3E22611036800F0B230 /* ListaAmbienteViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				C38AC3D0260FC32800F0B230 /* PessoaDao.swift in Sources */,
 				C38AC3CA260FC16B00F0B230 /* Ambiente.swift in Sources */,
 				C38AC3AD260FC02600F0B230 /* AppDelegate.swift in Sources */,
+				C38AC3E32611036800F0B230 /* ListaAmbienteViewController.swift in Sources */,
 				C38AC3C6260FC0ED00F0B230 /* Pessoa.swift in Sources */,
 				C38AC3DD260FD0B400F0B230 /* ListaPessoasViewController.swift in Sources */,
 				C38AC3AF260FC02600F0B230 /* SceneDelegate.swift in Sources */,
